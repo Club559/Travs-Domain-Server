@@ -1,0 +1,15 @@
+﻿<QuestLines>
+  <QuestLine id="0x00" type="Tutorial" stages="4">
+    <Quest stage="0" ac="true">Dodging Bullets</Quest>
+    <Quest stage="1" ac="true">Chicken Training</Quest>
+    <Quest stage="2" ac="true">A Poultry Task</Quest>
+    <Quest stage="3">Entering the Nexus</Quest>
+  </QuestLine>
+  <!--
+  <QuestLine id="0x01" type="Pirate Invasion" stages="3">
+    <Quest stage="0">Pirates Everywhere!</Quest>
+    <Quest stage="1" ac="true">The Pirate Cave</Quest>
+    <Quest stage="2">Dreadstump the Pirate King</Quest>
+  </QuestLine>
+  -->
+</QuestLines>

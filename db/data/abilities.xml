@@ -1,0 +1,54 @@
+﻿<Abilities>
+  <Ability type="0x000" id="Fire Spray">
+    <Class>Wizard</Class>
+    <Spec>Fire</Spec>
+    <Description>Shoots 20 piercing fire bullets in all directions from target location, each dealing 25-40 damage. Deals 25 extra damage to burned targets.</Description>
+    <Texture>
+      <File>abilities</File>
+      <Index>0x00</Index>
+    </Texture>
+    <MpCost>35</MpCost>
+    <Cooldown>10000</Cooldown>
+    <Projectile>
+      <ObjectId>Fire Bolt</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>25</MinDamage>
+      <MaxDamage>40</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+    <Activate>BulletNova</Activate>
+  </Ability>
+  <Ability type="0x001" id="Fireball">
+    <Class>Wizard</Class>
+    <Spec>Fire</Spec>
+    <Description>Hurdles a quick ball of fire towards a location, dealing 75-100 damage to an enemy and burning them for 50 damage over 5 seconds.</Description>
+    <Texture>
+      <File>abilities</File>
+      <Index>0x01</Index>
+    </Texture>
+    <MpCost>30</MpCost>
+    <Cooldown>5000</Cooldown>
+    <Projectile>
+      <ObjectId>Fire Bolt</ObjectId>
+      <Speed>150</Speed>
+      <Size>200</Size>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Activate>Shoot</Activate>
+  </Ability>
+  <Ability type="0x002" id="Incinerate">
+    <Class>Wizard</Class>
+    <Type>Fire</Type>
+    <Description>Burns all enemies within a 3 tile radius of the target location for 50 damage over 5 seconds.</Description>
+    <Texture>
+      <File>abilities</File>
+      <Index>0x02</Index>
+    </Texture>
+    <MpCost>15</MpCost>
+    <Cooldown>15000</Cooldown>
+    <Activate range="3" duration="5" amount="50">Burn</Activate>
+  </Ability>
+</Abilities>

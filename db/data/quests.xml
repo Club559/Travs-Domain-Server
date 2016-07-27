@@ -1,0 +1,44 @@
+﻿<Quests>
+  <Quest type="0x000" id="Dodging Bullets">
+    <LevelReq>1</LevelReq>
+    <QuestLine>Tutorial</QuestLine>
+    <Description>Welcome, new hero. You have decided to start your training as a {class}, but you do not yet have a weapon or an ability. Avoid the traps ahead of you and get your weapon.</Description>
+    <DescCompleted>Great job, you have proven yourself able to move around and not die!</DescCompleted>
+    <Objective id="0">
+      <Text>- Equip your weapon</Text>
+    </Objective>
+    <Reward>
+      <Exp>75</Exp>
+    </Reward>
+  </Quest>
+  <Quest type="0x001" id="Chicken Training">
+    <LevelReq>1</LevelReq>
+    <QuestLine>Tutorial</QuestLine>
+    <QuestReq>Dodging Bullets</QuestReq>
+    <Description>Now, you must learn to use your weapon. There are some evil chickens past this wall. Go destroy them to prove your weapon skills. You'll want to get your ability over there as well.</Description>
+    <DescCompleted>Wonderful, you can wield the weapon fantastically! Now onto the final step of your training.</DescCompleted>
+    <Objective id="0">
+      <Text>- Kill all the Evil Chickens</Text>
+    </Objective>
+    <Objective id="1">
+      <Text>- Equip your ability</Text>
+    </Objective>
+    <Reward>
+      <Exp>75</Exp>
+    </Reward>
+  </Quest>
+  <Quest type="0x002" id="A Poultry Task">
+    <LevelReq>1</LevelReq>
+    <QuestLine>Tutorial</QuestLine>
+    <QuestReq>Chicken Training</QuestReq>
+    <Description>Those chickens were just the beginning. Now that you have your ability, you are ready to face the Evil Chicken God! (Spacebar or shift-click to use ability)</Description>
+    <DescCompleted>Thanks to you, the tutorial land is now free of harmless, but evil, chickens. Don't worry, we have plenty of chickens to restock this area with.</DescCompleted>
+    <Objective id="0">
+      <Text>- Kill the Evil Chicken God</Text>
+    </Objective>
+    <Reward>
+      <Exp>150</Exp>
+      <Item>Ring of Minor Defense</Item>
+    </Reward>
+  </Quest>
+</Quests>

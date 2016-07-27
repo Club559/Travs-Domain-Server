@@ -1,0 +1,60 @@
+﻿<Objects>
+  <Object type="0xa000" id="Apprentice Staff" ext="true">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x70</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Tier>1</Tier>
+    <Rarity>1</Rarity>
+    <BoP/>
+    <Description>The staff used by all young heroes who wish to become a wizard. The weakest and easiest-to-use of all magical staves.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/fire_wand</Sound>
+    <Projectile>
+      <ObjectId>Grey Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>5</MinDamage>
+      <MaxDamage>10</MaxDamage>
+      <LifetimeMS>475</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>1</Frequency>
+    </Projectile>
+    <LevelReq>1</LevelReq>
+    <BagType>0</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <OldSound>magicShoot</OldSound>
+  </Object>
+  <Object type="0xa001" id="Aged Staff" ext="true">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x70</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Tier>2</Tier>
+    <Rarity>1</Rarity>
+    <BoP/>
+    <Description>An old, broken staff that still works somehow. Given to most apprentices after learning the basics.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/fire_wand</Sound>
+    <Projectile>
+      <ObjectId>Grey Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>10</MinDamage>
+      <MaxDamage>15</MaxDamage>
+      <LifetimeMS>475</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>1</Frequency>
+    </Projectile>
+    <LevelReq>1</LevelReq>
+    <BagType>0</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <OldSound>magicShoot</OldSound>
+  </Object>
+</Objects>
