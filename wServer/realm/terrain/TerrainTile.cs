@@ -58,6 +58,7 @@ namespace terrain
         Hallway_3,
         Gifting_Chest,
         Item_Spawn_Point,
+        Encounter,
         Setpiece1,
         Setpiece2,
         Setpiece3

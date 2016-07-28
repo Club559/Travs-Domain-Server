@@ -93,6 +93,7 @@
         CompleteQuest = 97,
         ChangeNexus = 98,
         UseAbility = 99,
-        EditMap = 100
+        EditMap = 100,
+        EncounterStart = 101
     }
 }

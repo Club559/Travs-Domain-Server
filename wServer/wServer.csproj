@@ -249,6 +249,7 @@
     <Compile Include="networking\handlers\HelloPacketHandler.cs" />
     <Compile Include="networking\handlers\VisibulletPacketHandler.cs" />
     <Compile Include="networking\IPacketHandler.cs" />
+    <Compile Include="networking\svrPackets\EncounterStartPacket.cs" />
     <Compile Include="networking\svrPackets\MarketTradeResultPacket.cs" />
     <Compile Include="networking\svrPackets\InvitedToPartyPacket.cs" />
     <Compile Include="networking\svrPackets\GetTextInputPacket.cs" />
