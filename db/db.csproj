@@ -115,6 +115,7 @@
     <EmbeddedResource Include="data\abilities.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <Content Include="data\pokemon.xml" />
     <Content Include="data\questlines.xml" />
     <Content Include="data\skins.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

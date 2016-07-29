@@ -73,7 +73,7 @@ namespace wServer.realm.entities
       TileDesc tileDesc = Manager.GameData.Tiles[tile.TileId];
       if (tile.Region == TileRegion.Encounter)
       {
-        string[] pokemons = new string[4] { "PIDGEY", "RATTATA", "CATERPIE", "WEEDLE" };
+        string[] pokemons = new string[4] { "Pidgey", "Rattata", "Caterpie", "Weedle" };
         wRandom pokerand = new wRandom();
         if (pokerand.Next(0, 20) == 0)
         {
