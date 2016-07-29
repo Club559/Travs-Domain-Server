@@ -45,7 +45,10 @@ namespace wServer.realm.terrain
         Hallway_3,
         Gifting_Chest,
         Item_Spawn_Point,
-        Encounter,
+        Encounter_1,
+        Encounter_2,
+        Encounter_3,
+        Encounter_4,
         Setpiece1,
         Setpiece2,
         Setpiece3

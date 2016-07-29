@@ -71,15 +71,30 @@ namespace wServer.realm.entities
     {
       WmapTile tile = Owner.Map[(int)X, (int)Y];
       TileDesc tileDesc = Manager.GameData.Tiles[tile.TileId];
-      if (tile.Region == TileRegion.Encounter)
+      if (tile.Region == TileRegion.Encounter_1 || tile.Region == TileRegion.Encounter_2 || tile.Region == TileRegion.Encounter_3 || tile.Region == TileRegion.Encounter_4)
       {
-        string[] pokemons = new string[4] { "Pidgey", "Rattata", "Caterpie", "Weedle" };
+        string[] pokemons = new string[] { };
+        switch(tile.Region)
+        {
+          case TileRegion.Encounter_1:
+            pokemons = new string[] { "Caterpie", "Weedle", "Kakuna", "Metapod" };
+            break;
+          case TileRegion.Encounter_2:
+            pokemons = new string[] { "Pidgey", "Rattata" };
+            break;
+          case TileRegion.Encounter_3:
+            pokemons = new string[] { "Bulbasaur", "Squirtle", "Charmander" };
+            break;
+          case TileRegion.Encounter_4:
+            pokemons = new string[] { "Venusaur", "Blastoise", "Charizard" };
+            break;
+        }
         wRandom pokerand = new wRandom();
-        if (pokerand.Next(0, 20) == 0)
+        if (pokerand.Next(0, 10) == 0)
         {
           Client.SendPacket(new EncounterStartPacket()
           {
-            Pokemon = pokemons[pokerand.Next(0, 3)]
+            Pokemon = pokemons[pokerand.Next(0, pokemons.Length)]
           });
         }
       }
