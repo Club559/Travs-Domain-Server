@@ -1,0 +1,126 @@
+﻿<Pokemons>
+  <Pokemon id="1" name="Bulbasaur">
+    <Type>Grass</Type>
+    <Type2>Poison</Type2>
+    <Species>Seed Pokémon</Species>
+    <Description>For some time after its birth, it grows by gaining nourishment from the seed on its back.</Description>
+    <Evolution level="16">Ivysaur</Evolution>
+  </Pokemon>
+  <Pokemon id="2" name="Ivysaur">
+    <Type>Grass</Type>
+    <Type2>Poison</Type2>
+    <Species>Seed Pokémon</Species>
+    <Description>When the bud on its back starts swelling, a sweet aroma wafts to indicate the flowers coming bloom.</Description>
+    <Evolution level="32">Venusaur</Evolution>
+  </Pokemon>
+  <Pokemon id="3" name="Venusaur">
+    <Type>Grass</Type>
+    <Type2>Poison</Type2>
+    <Species>Seed Pokémon</Species>
+    <Description>After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.</Description>
+  </Pokemon>
+  <Pokemon id="4" name="Charmander">
+    <Type>Fire</Type>
+    <Species>Lizard Pokémon</Species>
+    <Description>The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.</Description>
+    <Evolution level="16">Charmeleon</Evolution>
+  </Pokemon>
+  <Pokemon id="5" name="Charmeleon">
+    <Type>Fire</Type>
+    <Species>Flame Pokémon</Species>
+    <Description>In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.</Description>
+    <Evolution level="36">Charizard</Evolution>
+  </Pokemon>
+  <Pokemon id="6" name="Charizard">
+    <Type>Fire</Type>
+    <Type2>Flying</Type2>
+    <Species>Flame Pokémon</Species>
+    <Description>It is said that Charizards fire burns hotter if it has experienced harsh battles.</Description>
+  </Pokemon>
+  <Pokemon id="7" name="Squirtle">
+    <Type>Water</Type>
+    <Species>Young Turtle Pokémon</Species>
+    <Description>It shelters itself in its shell then strikes back with spouts of water at every opportunity.</Description>
+    <Evolution level="16">Wartortle</Evolution>
+  </Pokemon>
+  <Pokemon id="8" name="Wartortle">
+    <Type>Water</Type>
+    <Species>Turtle Pokémon</Species>
+    <Description>It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.</Description>
+    <Evolution level="36">Blastoise</Evolution>
+  </Pokemon>
+  <Pokemon id="9" name="Blastoise">
+    <Type>Water</Type>
+    <Species>Shell Pokémon</Species>
+    <Description>The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.</Description>
+  </Pokemon>
+  <Pokemon id="10" name="Caterpie">
+    <Type>Bug</Type>
+    <Species>Caterpillar Pokémon</Species>
+    <Description>It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.</Description>
+    <Evolution level="7">Metapod</Evolution>
+  </Pokemon>
+  <Pokemon id="11" name="Metapod">
+    <Type>Bug</Type>
+    <Species>Chrysalis Pokémon</Species>
+    <Description>A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.</Description>
+    <Evolution level="10">Butterfree</Evolution>
+  </Pokemon>
+  <Pokemon id="12" name="Butterfree">
+    <Type>Bug</Type>
+    <Type2>Flying</Type2>
+    <Species>Butterfly Pokémon</Species>
+    <Description>It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.</Description>
+  </Pokemon>
+  <Pokemon id="13" name="Weedle">
+    <Type>Bug</Type>
+    <Type2>Poison</Type2>
+    <Species>Hairy Caterpillar Pokémon</Species>
+    <Description>It eats its weight in leaves every day. It fends off attackers with the needle on its head.</Description>
+    <Evolution level="7">Kakuna</Evolution>
+  </Pokemon>
+  <Pokemon id="14" name="Kakuna">
+    <Type>Bug</Type>
+    <Type2>Poison</Type2>
+    <Species>Pupa Pokémon</Species>
+    <Description>While awaiting evolution, it hides from predators under leaves and in nooks of branches.</Description>
+    <Evolution level="10">Beedrill</Evolution>
+  </Pokemon>
+  <Pokemon id="15" name="Beedrill">
+    <Type>Bug</Type>
+    <Type2>Poison</Type2>
+    <Species>Poison Bee Pokémon</Species>
+    <Description>Its best attack involves flying around at high speed, striking with poison needles, then flying off.</Description>
+  </Pokemon>
+  <Pokemon id="16" name="Pidgey">
+    <Type>Flying</Type>
+    <Type2>Normal</Type2>
+    <Species>Small Bird Pokémon</Species>
+    <Description>It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.</Description>
+    <Evolution level="18">Pidgeotto</Evolution>
+  </Pokemon>
+  <Pokemon id="17" name="Pidgeotto">
+    <Type>Flying</Type>
+    <Type2>Normal</Type2>
+    <Species>Bird Pokémon</Species>
+    <Description>It flies over its wide territory in search of prey, downing it with its highly developed claws.</Description>
+    <Evolution level="36">Pidgeot</Evolution>
+  </Pokemon>
+  <Pokemon id="18" name="Pidgeot">
+    <Type>Flying</Type>
+    <Type2>Normal</Type2>
+    <Species>Bird Pokémon</Species>
+    <Description>It flies over its wide territory in search of prey, downing it with its highly developed claws.</Description>
+  </Pokemon>
+  <Pokemon id="19" name="Rattata">
+    <Type>Normal</Type>
+    <Species>Mouse Pokémon</Species>
+    <Description>It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.</Description>
+    <Evolution level="20">Raticate</Evolution>
+  </Pokemon>
+  <Pokemon id="20" name="Raticate">
+    <Type>Normal</Type>
+    <Species>Mouse Pokémon</Species>
+    <Description>With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.</Description>
+  </Pokemon>
+</Pokemons>
