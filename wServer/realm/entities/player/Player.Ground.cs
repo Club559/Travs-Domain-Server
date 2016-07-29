@@ -71,11 +71,16 @@ namespace wServer.realm.entities
     {
       WmapTile tile = Owner.Map[(int)X, (int)Y];
       TileDesc tileDesc = Manager.GameData.Tiles[tile.TileId];
-      if(tile.Region == TileRegion.Encounter)
+      if (tile.Region == TileRegion.Encounter)
       {
-        if(new wRandom().Next(0, 20) == 0)
+        string[] pokemons = new string[4] { "PIDGEY", "RATTATA", "CATERPIE", "WEEDLE" };
+        wRandom pokerand = new wRandom();
+        if (pokerand.Next(0, 20) == 0)
         {
-          Client.SendPacket(new EncounterStartPacket());
+          Client.SendPacket(new EncounterStartPacket()
+          {
+            Pokemon = pokemons[pokerand.Next(0, 3)]
+          });
         }
       }
     }
